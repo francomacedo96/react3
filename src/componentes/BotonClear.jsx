@@ -2,7 +2,7 @@ import React from "react";
 import "../estilo/BotonClear.css"
 
 const BotonClear = (props) => (
-    <div className="boton-clear">
+    <div onClick={props.manejarClear} className="boton-clear">
         {props.children}
     </div>
 );
